@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, Building, Factory, Shield, Cpu, Activity, Briefcase } from 'lucide-react';
 import Container from './common/Container';
 import Section from './common/Section';
 import Card from './common/Card';
 import AnimatedHeading from './common/AnimatedHeading';
-
+import azkoimg from "../assets/images/akzonobel.png"
+import fojifreshimg from "../assets/images/fojifreshandfreeze.jpeg"
+import paecimg from "../assets/images/paec.jpeg"
+import faujicementimg from "../assets/images/fauji.jpeg"
+import govtimg from "../assets/images/govt.jpg"
+import indimg from "../assets/images/industrial-chain.jpg"
 const PROJECTS = [
   {
     id: 1,
@@ -14,7 +20,7 @@ const PROJECTS = [
     category: 'Government',
     featured: true,
     icon: Activity,
-    image: 'https://placehold.co/800x600/1e40af/FFFFFF?text=PAEC+Project',
+    image: paecimg,
     desc: 'Supplied precision measuring instruments, control systems, and electrical components for PAEC\'s power generation facility. Project included 200+ precision instruments, automated control systems, and comprehensive technical support.',
     metrics: ['200+ Instruments', 'On-schedule Delivery', '100% Certified']
   },
@@ -25,7 +31,7 @@ const PROJECTS = [
     category: 'Private Sector',
     featured: false,
     icon: Factory,
-    image: 'https://placehold.co/800x600/1e40af/FFFFFF?text=Cement+Plant',
+    image: faujicementimg,
     desc: 'Complete industrial equipment package including mechanical parts, lifting equipment, and safety gears supporting 24/7 cement production.'
   },
   {
@@ -35,7 +41,7 @@ const PROJECTS = [
     category: 'Chemicals',
     featured: false,
     icon: Shield,
-    image: 'https://placehold.co/800x600/1e40af/FFFFFF?text=Chemicals',
+    image: azkoimg,
     desc: 'Sourced specialized equipment for chemical manufacturing including precision measuring instruments, flow sensors, and control systems.'
   },
   {
@@ -45,7 +51,7 @@ const PROJECTS = [
     category: 'Food',
     featured: false,
     icon: Cpu,
-    image: 'https://placehold.co/800x600/1e40af/FFFFFF?text=Food+Processing',
+    image: fojifreshimg,
     desc: 'Supplied refrigeration components, conveyor equipment, safety systems, and quality control instruments.'
   },
   {
@@ -55,7 +61,7 @@ const PROJECTS = [
     category: 'Government',
     featured: false,
     icon: Building,
-    image: 'https://placehold.co/800x600/1e40af/FFFFFF?text=Gov+Contract',
+    image: govtimg,
     desc: 'Approved government contractor supplying equipment to multiple federal and provincial organizations.'
   },
   {
@@ -65,7 +71,7 @@ const PROJECTS = [
     category: 'Private Sector',
     featured: false,
     icon: Briefcase,
-    image: 'https://placehold.co/800x600/1e40af/FFFFFF?text=Industrial+Chain',
+    image: indimg,
     desc: 'Ongoing supply contracts with 50+ private sector industries including textile mills, automotive suppliers, and engineering firms.'
   }
 ];

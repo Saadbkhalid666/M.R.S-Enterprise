@@ -95,7 +95,6 @@ const Navbar = () => {
 
           <NavLink href="#projects" isScrolled={isScrolled}>Projects</NavLink>
           <NavLink href="#contact" isScrolled={isScrolled}>Contact</NavLink>
-          <DarkModeToggle />
         </div>
 
         {/* Mobile Menu Button */}

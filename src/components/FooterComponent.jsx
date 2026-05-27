@@ -90,7 +90,7 @@ const FooterComponent = () => {
         <div className="border-t border-slate-800 py-6 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500">
           <p>&copy; {new Date().getFullYear()} M.R.S Enterprises. All rights reserved.</p>
           <p className="mt-2 md:mt-0">
-            Designed & Developed by <a href="#" className="text-slate-400 hover:text-primary transition-colors">Your Agency</a>
+            Designed & Developed by <a href="https://saadbinkhalid.vercel.app" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-primary transition-colors">Saad Bin Khalid | Full Stack Engineer</a>
           </p>
         </div>
       </Container>

@@ -14,7 +14,6 @@ const TESTIMONIALS = [
   {
     name: 'Engr. Muhammad Hassan',
     title: 'Project Manager',
-    company: 'Pakistan Atomic Energy Commission',
     quote: 'M.R.S Enterprises has been our reliable partner for precision instruments and electrical components. Their commitment to quality and on-time delivery is exceptional. Highly recommended for any industrial procurement needs.',
     color: 'text-blue-600',
     bg: 'bg-blue-600',
@@ -23,7 +22,6 @@ const TESTIMONIALS = [
   {
     name: 'Ayesha Khan',
     title: 'Operations Director',
-    company: 'Fauji Cement Limited',
     quote: 'Working with M.R.S Enterprises for our manufacturing equipment needs has been a game-changer. Their technical knowledge and dedication to customer service are outstanding. We\'ve saved costs while maintaining quality.',
     color: 'text-green-600',
     bg: 'bg-green-600',
@@ -32,7 +30,6 @@ const TESTIMONIALS = [
   {
     name: 'Rashid Ahmad',
     title: 'Supply Chain Manager',
-    company: 'Azko Nobel Pakistan',
     quote: 'M.R.S Enterprises stands out for their international sourcing capabilities and regulatory compliance expertise. Dealing with chemical processing equipment requires precision—they deliver both flawlessly.',
     color: 'text-purple-600',
     bg: 'bg-purple-600',
@@ -41,7 +38,6 @@ const TESTIMONIALS = [
   {
     name: 'Dr. Saeed Ahmad',
     title: 'Head of Engineering',
-    company: 'Leading Manufacturing Company',
     quote: 'As an ISO-certified manufacturer, we require suppliers who understand quality standards. M.R.S Enterprises delivers exactly that. Their certification documentation has made our compliance processes seamless.',
     color: 'text-red-600',
     bg: 'bg-red-600',

@@ -35,11 +35,11 @@ const FooterComponent = () => {
               </div>
               <div className="flex items-center space-x-3 text-sm">
                 <Phone size={18} className="text-primary flex-shrink-0" />
-                <a href="tel:+923000000000" className="hover:text-white transition-colors">+92 300 0000000</a>
+                <a href="tel:+923214243092" className="hover:text-white transition-colors">+92 3214243092</a>
               </div>
               <div className="flex items-center space-x-3 text-sm">
                 <Mail size={18} className="text-primary flex-shrink-0" />
-                <a href="mailto:contact@mrsenterprises.com" className="hover:text-white transition-colors">contact@mrsenterprises.com</a>
+                <a href="mailto:mrsenterprises29@gmail.com" className="hover:text-white transition-colors">mrsenterprises29@gmail.com</a>
               </div>
             </div>
           </div>
@@ -71,8 +71,6 @@ const FooterComponent = () => {
                 { name: 'Our Suppliers', href: '#suppliers' },
                 { name: 'Featured Projects', href: '#projects' },
                 { name: 'Request Quotation', href: '#contact' },
-                { name: 'Terms & Conditions', href: '#' },
-                { name: 'Privacy Policy', href: '#' }
               ].map((link, idx) => (
                 <li key={idx}>
                   <a href={link.href} className="text-sm text-slate-400 hover:text-white transition-colors flex items-center group">
@@ -84,43 +82,7 @@ const FooterComponent = () => {
             </ul>
           </div>
 
-          {/* Column 4: Newsletter */}
-          <div>
-            <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Stay Updated</h4>
-            <p className="text-sm text-slate-400 mb-4">
-              Subscribe to our newsletter for the latest products and industrial insights.
-            </p>
-            <form className="mb-6 relative" onSubmit={(e) => e.preventDefault()}>
-              <input 
-                type="email" 
-                placeholder="Email address" 
-                className="w-full bg-slate-900 border border-slate-800 text-white rounded-lg py-2.5 pl-4 pr-12 focus:outline-none focus:border-primary transition-colors text-sm"
-                required
-              />
-              <button 
-                type="submit" 
-                className="absolute right-2 top-1.5 p-1.5 bg-primary text-white rounded-md hover:bg-secondary transition-colors"
-              >
-                <ChevronRight size={16} />
-              </button>
-            </form>
-            
-            <h4 className="text-white font-bold mb-4 uppercase tracking-wider text-xs">Follow Us</h4>
-            <div className="flex space-x-3">
-              <a href="#" className="w-9 h-9 flex items-center justify-center bg-slate-900 border border-slate-800 rounded-full hover:bg-blue-600 hover:border-blue-600 transition-colors font-bold text-white">
-                in
-              </a>
-              <a href="#" className="w-9 h-9 flex items-center justify-center bg-slate-900 border border-slate-800 rounded-full hover:bg-blue-500 hover:border-blue-500 transition-colors font-bold text-white">
-                f
-              </a>
-              <a href="#" className="w-9 h-9 flex items-center justify-center bg-slate-900 border border-slate-800 rounded-full hover:bg-slate-700 hover:border-slate-600 transition-colors font-bold text-white">
-                X
-              </a>
-              <a href="#" className="w-9 h-9 flex items-center justify-center bg-slate-900 border border-slate-800 rounded-full hover:bg-pink-600 hover:border-pink-600 transition-colors font-bold text-white">
-                ig
-              </a>
-            </div>
-          </div>
+          
 
         </div>
 

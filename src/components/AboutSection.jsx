@@ -4,7 +4,7 @@ import { CheckCircle, ShieldCheck, Building, Award } from 'lucide-react';
 import Container from './common/Container';
 import Section from './common/Section';
 import AnimatedHeading from './common/AnimatedHeading';
-import aboutimg from "../assets/images/about.jpg"
+import aboutimg from "../assets/images/about-image.jpg"
 
 // Animated Counter Component
 const AnimatedCounter = ({ from, to, suffix = '', duration = 2.5 }) => {

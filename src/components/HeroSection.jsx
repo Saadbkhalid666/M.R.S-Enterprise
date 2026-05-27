@@ -14,6 +14,12 @@ const HeroSection = () => {
 
   const headline = "Premium Industrial Solutions from Global Leaders";
   const words = headline.split(' ');
+  const handleExploreProducts = () => {
+    document.getElementById('products').scrollIntoView({ behavior: 'smooth' });
+  };
+  const handleRequestQuotation = () => {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <section id="home" className="relative w-full h-[90vh] md:h-screen flex items-center justify-center overflow-hidden bg-slate-900">
@@ -95,8 +101,8 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 1.5 }}
           className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 w-full md:w-auto"
         >
-          <Button size="lg" className="w-full sm:w-auto">Explore Our Products</Button>
-          <Button variant="secondary" size="lg" className="w-full sm:w-auto">Request Quotation</Button>
+          <Button onClick={handleExploreProducts} size="lg" className="w-full sm:w-auto">Explore Our Products</Button>
+          <Button variant="secondary" onClick={handleRequestQuotation} size="lg" className="w-full sm:w-auto">Request Quotation</Button>
         </motion.div>
 
         {/* Trust Badges */}

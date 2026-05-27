@@ -1,17 +1,59 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
 # M.R.S-Enterprise
-A Landing Page for an import Export Company M.R.S ENTERPRISES
->>>>>>> 3ce76da796a06dcace80761bb563e7a710a30cb6
+
+## Overview
+A modern, responsive landing page for **M.R.S Enterprises**, an import & export company. Built with React, Vite, and Tailwind CSS, the site showcases a premium UI, fast load times, and SEO-friendly markup.
+
+---
+
+## Features
+- **Responsive Design** – Optimized for desktop, tablet, and mobile.
+- **Fast Development** – Powered by Vite's instant server start and HMR.
+- **Tailwind CSS** – Utility‑first styling for a clean, maintainable UI.
+- **SEO Optimized** – Proper meta tags and semantic HTML for better search visibility.
+- **Easy Customization** – Component‑based architecture for quick updates.
+
+---
+
+## Tech Stack
+- **React** – UI library.
+- **Vite** – Build tool & dev server.
+- **Tailwind CSS** – Styling framework.
+
+---
+
+## Getting Started
+```bash
+# Clone the repository
+git clone https://github.com/Saadbkhalid666/M.R.S-Enterprise.git
+cd M.R.S-Enterprise
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+Open `http://localhost:5173` in your browser to view the site.
+
+---
+
+## Build for Production
+```bash
+npm run build
+```
+The optimized static files will be generated in the `dist/` folder.
+
+---
+
+## Contributing
+Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request.
+
+---
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+## Contact
+**Saad Khalid** – [GitHub](https://github.com/Saadbkhalid666)

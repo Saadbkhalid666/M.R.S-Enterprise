@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown } from 'lucide-react';
-import DarkModeToggle from './common/DarkModeToggle';
 import Container from './common/Container';
 
 const SERVICES = [
@@ -101,7 +100,6 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center space-x-4">
-          <DarkModeToggle />
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className={`p-2 focus:outline-none ${
